@@ -1,5 +1,4 @@
-
-  html {
+html {
   scroll-behavior: smooth;
 }
 
@@ -102,47 +101,4 @@ a.pdf-link:hover {
   }
 }
 
-.project-card img,
-img.scale-with-grid {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-  display: block;
-  margin: 0 auto;
-}
-.projects-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
-.projects-row .project-card {
-  width: 300px;
-}
-.project-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.project-card img {
-  width: 250px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-  display: block;
-  margin: 0 auto;
-}
-
-.project-card img:hover {
-  transform: scale(1.05);
-}
 
