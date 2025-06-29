@@ -44,6 +44,14 @@ a:hover h5 {
   transform: scale(1.05);
 }
 
+.project-card img.scale-with-grid {
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
 
 /* Navbar */
 nav a {
