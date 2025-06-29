@@ -100,5 +100,18 @@ a.pdf-link:hover {
     margin-bottom: 30px;
   }
 }
+.project-card img.scale-with-grid {
+  aspect-ratio: 1 / 1;         /* Τετράγωνο σχήμα */
+  object-fit: cover;           /* Κόψε για να γεμίζει */
+  height: auto;                /* Αν χρειάζεται, μπορείς να το κάνεις π.χ. height: 250px */
+  width: 100%;
+}
+
+
+.project-card img.scale-with-grid {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
 
 
