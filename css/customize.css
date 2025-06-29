@@ -32,14 +32,18 @@ a:hover h5 {
   color: #3498db;
 }
 
-img.scale-with-grid {
+ .project-card img.scale-with-grid {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
 
-img.scale-with-grid:hover {
+.project-card img.scale-with-grid:hover {
   transform: scale(1.05);
 }
+
 
 /* Navbar */
 nav a {
@@ -114,4 +118,11 @@ a.pdf-link:hover {
   object-fit: cover;
 }
 
+.project-card img.scale-with-grid {
+  width: 100%;
+  height: 220px;         /* Ίδιο ύψος για όλες */
+  object-fit: cover;     /* Κόβει για να μη παραμορφώνεται */
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
 
